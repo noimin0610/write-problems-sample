@@ -4,18 +4,19 @@
 use_plugin('rime_plus')
 use_plugin('judge_system.atcoder')
 #use_plugin('judge_system.aoj')
-#use_plugin('wikify')
-#use_plugin('wikify_full')
+use_plugin('wikify')
+use_plugin('wikify_full')
+use_plugin('htmlify_full')
 
 project(library_dir='common', required_rime_plus_version='1.0.0')
 
-#wikify_config(
-#  url="http://example.com/pukiwiki/",
-#  page="***",
-#  encoding="utf-8",
-#  auth_realm="***",
-#  auth_username="***",
-#  auth_password="***")
+wikify_config(
+  url="http://example.com/pukiwiki/",
+  page="***",
+  encoding="utf-8",
+  auth_realm="***",
+  auth_username="***",
+  auth_password="***")
 
 atcoder_config(
   upload_script='***',
