@@ -1,0 +1,17 @@
+# -*- coding: utf-8; mode: python -*-
+
+pid='A'
+
+problem(
+  time_limit=1.0,
+  id=pid,
+  title=pid + ": A+B",
+  wiki_name="A+B", # for wikify plugin
+  assignees=['not'], # for wikify plugin
+  need_custom_judge=False, # for wikify plugin
+  reference_solution='not',
+  )
+
+atcoder_config(
+  task_id=None # None means a spare
+)
